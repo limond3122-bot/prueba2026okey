@@ -1,494 +1,100 @@
+/*
+   PASO 2: Estilos para la rama Diegolimon-feat (Header y 2 Secciones)*/
 
-.container {
-  width: 140rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-}
-.section-tag {
-  color: #c0392b;
-  font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  display: inline-block;
-  margin-bottom: 0.6rem;
-}
-.main-header {
-  background-color: #000000;
-}
-.navbar {
-  background-color: #ffffff;
-  height: 5.2rem;
-  border-bottom: 0.1rem solid #e0ddd5;
-}
-.container-navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100%;
-}
-.navbar .logo {
-  color: #1a1a1a;
-  font-size: 1.3rem;
-  font-weight: bold;
-  letter-spacing: 0.15rem;
-}
-.nav-links {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.nav-links li {
-  margin-right: 2.8rem;
-}
-.nav-links a {
-  font-size: 1.2rem;
-  color: #555555;
-}
-.nav-links a:hover {
-  color: #c0392b;
-}
-.btn-reservation-nav {
-  background-color: #c0392b;
-  color: #ffffff;
-  font-size: 1.1rem;
-  font-weight: bold;
-  padding: 0.6rem 1.6rem;
-  border-radius: 0.6rem;
-}
-.btn-reservation-nav:hover {
-  background-color: #a93226;
-}
-.hero {
-  background-color: #000000;
-  padding: 6.4rem 0;
-}
-.container-hero {
-  display: flex;
-  align-items: center;
-}
-.hero-content {
-  flex-basis: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.hero .pill {
-  color: #c0392b;
-  border: 0.1rem solid rgba(192, 57, 43, 0.5);
-  font-size: 1rem;
-  padding: 0.4rem 1.2rem;
-  border-radius: 2rem;
-  margin-bottom: 2rem;
-}
-.hero h1 {
-  color: #ffffff;
-  font-size: 3.6rem;
-  font-weight: bold;
-  line-height: 1.2;
-  margin: 0 0 1.4rem 0;
-}
-.hero h1 span {
-  color: #c0392b;
-}
-.hero-description {
-  color: #888888;
-  font-size: 1.3rem;
-  line-height: 1.8;
-  max-width: 34rem;
-  margin: 0 0 2.8rem 0;
-}
-.hero-buttons {
-  display: flex;
-  align-items: center;
-}
-.btn-primary {
-  background-color: #c0392b;
-  color: #ffffff;
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding: 1rem 2.2rem;
-  border-radius: 0.6rem;
-  margin-right: 1rem;
-}
-.btn-primary:hover {
-  background-color: #a93226;
-}
-.btn-secondary {
-  background-color: transparent;
-  border: 0.1rem solid rgba(255, 255, 255, 0.2);
-  color: #cccccc;
-  font-size: 1.2rem;
-  padding: 1rem 1.8rem;
-  border-radius: 0.6rem;
-}
-.btn-secondary:hover {
-  border-color: rgba(255, 255, 255, 0.6);
-  color: #ffffff;
-}
-.menu-section {
-  background-color: #ffffff;
-  padding: 4.8rem 0;
-}
-.section-header {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  margin-bottom: 2.8rem;
-}
-.menu-section h2 {
-  font-size: 2.2rem;
-  font-weight: bold;
-  margin: 0;
-}
-.view-all-link {
-  color: #555555;
-  font-size: 1.2rem;
-  border-bottom: 0.1rem solid #e0ddd5;
-}
-.view-all-link:hover {
-  color: #c0392b;
-  border-color: #c0392b;
-}
-.cards-grid {
-  display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-}
-.product-card {
-  flex-basis: 25%;
-  background-color: #ffffff;
-  border: 0.1rem solid #e0ddd5;
-  border-radius: 1rem;
-  overflow: hidden; 
-}
-.product-card:not(:last-child) {
-  margin-right: 2rem;
-}
-.product-card img {
-  height: 20rem;
-  width: 100%;
-  object-fit: cover;
-}
-.card-info {
-  padding: 1.2rem;
-}
-.card-info h3 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin: 0 0 0.4rem 0;
-}
-.card-info p {
-  font-size: 1.1rem;
-  color: #555555;
-  line-height: 1.5;
-  margin: 0 0 1rem 0;
-}
-.card-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.card-footer .price {
-  color: #c0392b;
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-.btn-add {
-  background-color: #1a1a1a;
-  color: #ffffff;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 0.5rem;
-  border: none;
-  font-size: 1.2rem;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  padding: 0;
-}
-.btn-add:hover {
-  background-color: #c0392b;
-}
-.popular-section {
-  background-color: #f2f0eb;
-  padding: 4.8rem 0;
-  border-top: 0.1rem solid #e0ddd5;
-  border-bottom: 0.1rem solid #e0ddd5;
-}
-.container-popular {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.popular-intro {
-  flex-basis: 28rem;
-  flex-shrink: 0;
-  margin-right: 4.8rem;
-}
-.popular-intro h2 {
-  font-size: 2rem;
-  font-weight: 500;
-  margin: 0 0 1rem 0;
-}
-.popular-intro p {
-  font-size: 1.2rem;
-  color: #555555;
-  line-height: 1.7;
-  margin: 0;
-}
-.popular-list {
-  flex-basis: 1;
-  flex: 1; 
-}
-.popular-list li {
-  display: flex;
-  align-items: center;
-  padding: 1.2rem 0;
-  border-bottom: 0.1rem solid #e0ddd5;
-}
-.popular-list li:last-child {
-  border-bottom: none;
-}
-.popular-list img {
-  width: 5.2rem;
-  height: 5.2rem;
-  object-fit: cover;
-  border-radius: 0.8rem;
-  margin-right: 1.4rem;
-}
-.popular-item-info {
-  display: flex;
-  flex-direction: column;
-}
-.item-name {
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-.item-desc {
-  font-size: 1.1rem;
-  color: #555555;
-}
-.popular-meta {
-  margin-left: auto;
-  text-align: right;
-}
-.popular-meta .price {
-  color: #c0392b;
-  font-size: 1.3rem;
-  font-weight: 500;
-  display: block;
-}
-.popular-meta .count {
-  font-size: 1rem;
-  color: #555555;
-}
-.about-section {
-  background-color: #ffffff;
-  padding: 4.8rem 0;
-}
-.container-about {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.about-text {
-  flex-basis: 45%;
-}
-.about-text h2 {
-  font-size: 2.2rem;
-  font-weight: bold;
-  margin: 0 0 1.6rem 0;
-}
-.about-text p {
-  font-size: 1.3rem;
-  color: #555555;
-  line-height: 1.8;
-  margin: 0 0 1.2rem 0;
-}
-.about-stats {
-  flex-basis: 45%;
-  border: 0.1rem solid #e0ddd5;
-  border-radius: 1rem;
-  display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-  overflow: hidden;
-}
-.stat-item {
-  flex-basis: 33.33%;
-  background-color: #ffffff;
-  padding: 2rem 1.6rem;
-  text-align: center;
-}
-.stat-item:not(:last-child) {
-  border-right: 0.1rem solid #e0ddd5;
-}
-.stat-number {
-  font-size: 2.4rem;
-  font-weight: bold;
-  color: #1a1a1a;
-  display: block;
-}
-.stat-item small {
-  font-size: 1.1rem;
-  color: #555555;
-  display: block;
-  margin-top: 0.4rem;
-}
-.contact-section {
-  background-color: #f2f0eb;
-  padding: 4.8rem 0;
-  border-top: 0.1rem solid #e0ddd5;
-}
-.container-contact {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-.contact-info {
-  flex-basis: 40%;
-}
-.contact-info h2 {
-  font-size: 2.2rem;
-  font-weight: bold;
-  margin: 0 0 1.6rem 0;
-}
-.contact-desc {
-  font-size: 1.3rem;
-  color: #555555;
-  line-height: 1.8;
-  margin: 0 0 2.4rem 0;
-}
-.contact-data-list {
-  display: flex;
-  flex-direction: column;
-}
-.contact-data-list li {
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-  color: #555555;
-}
-.email-link {
-  color: #c0392b;
-}
-.contact-card-form {
-  flex-basis: 50%;
-  background-color: #ffffff;
-  border: 0.1rem solid #e0ddd5;
-  border-radius: 1rem;
-  padding: 2.4rem;
-}
-.contact-form {
-  display: flex;
-  flex-direction: column;
-}
-.form-group {
-  margin-bottom: 1rem;
-  display: flex;
-  flex-direction: column;
-}
-.contact-form label {
-  font-size: 1.1rem;
-  color: #555555;
-  margin-bottom: 0.4rem;
-}
-.contact-form input,
-.contact-form textarea {
-  background-color: #f9f8f5;
-  border: 0.1rem solid #e0ddd5;
-  border-radius: 0.6rem;
-  padding: 0.9rem 1.2rem;
-  font-size: 1.2rem;
-  width: 100%;
-  font-family: inherit;
-}
-.btn-submit {
-  background-color: #c0392b;
-  color: #ffffff;
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding: 1rem;
-  border: none;
-  border-radius: 0.6rem;
-  width: 100%;
-  margin-top: 0.4rem;
-  cursor: pointer;
-  font-family: inherit;
-  transition: background-color 0.3s;
-}
-.btn-submit:hover {
-  background-color: #a93226;
-}
-.main-footer {
-  background-color: #111111;
-  padding: 3.6rem 0 2rem 0;
-}
-.footer-columns {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin-bottom: 2.8rem;
-}
-.footer-col h3 {
-  color: #ffffff;
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin: 0 0 1.2rem 0;
-}
-.footer-col h4 {
-  color: #999999;
-  font-size: 0.9rem;
-  font-weight: 500;
-  margin: 0 0 1.2rem 0;
-  text-transform: uppercase;
-}
-.footer-col p {
-  color: #666666;
-  font-size: 1.1rem;
-  line-height: 1.9;
-  margin: 0;
-}
-.brand-col {
-  flex-basis: 35%;
-}
-.nav-col {
-  flex-basis: 18%;
-}
-.nav-col li {
-  font-size: 1.1rem;
-  color: #666666;
-  line-height: 1.9;
-}
-.nav-col a {
-  color: #666666;
-}
-.nav-col a:hover {
-  color: #ffffff;
-}
-.footer-bottom {
-  border-top: 0.1rem solid #222222;
-  padding-top: 1.6rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.copyright {
-  font-size: 1rem;
-  color: #444444;
-  margin: 0;
-}
-.social-links {
-  display: flex;
-}
-.social-links li {
-  margin-right: 1.6rem;
-}
-.social-links a {
-  font-size: 1rem;
-  color: #444444;
-}
-.social-links a:hover {
-  color: #c0392b;
+/* 1. PERÍMETRO Y ESTILOS DEL HEADER */
+header {
+    background-color: #1a1a1a;     /* Fondo oscuro elegante */
+    color: #ffffff;                /* Texto blanco */
+    padding: 20px 40px;            /* Perímetro interior (arriba/abajo y lados) */
+    display: flex;
+    justify-content: space-between;/* Separa el logo de los enlaces */
+    align-items: center;
+    border-bottom: 3px solid #e63946; /* Borde inferior decorativo (color sushi) */
+}
+
+header h1 {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;             /* Espacio entre los enlaces del menú */
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #e63946;                /* Cambio de color al pasar el cursor */
+}
+
+
+/* 2. PRIMERA SECCIÓN: HÉROE / BIENVENIDA (Sección deseada 1) */
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 60px 20px;            /* Margen interno amplio para dar aire */
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;                /* Centra la sección en la pantalla */
+}
+
+.hero-section h2 {
+    font-size: 36px;
+    color: #1a1a1a;
+    margin-bottom: 15px;           /* Perímetro de separación con el texto */
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+
+/* 3. SEGUNDA SECCIÓN: DESTACADOS / MENÚ (Sección deseada 2) */
+.menu-preview {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;                /* Centra el contenedor del menú */
+}
+
+.menu-preview h3 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Contenedor de las tarjetas de sushi */
+.sushi-grid {
+    display: flex;
+    gap: 20px;                     /* Espacio exacto entre cada tarjeta */
+    justify-content: center;
+    flex-wrap: wrap;               /* Si no caben, se bajan automáticamente */
+}
+
+/* Tarjetas individuales (Control de perímetros individuales) */
+.sushi-card {
+    background: #ffffff;
+    border: 1px solid #ddd;        /* Línea del perímetro de la tarjeta */
+    border-radius: 8px;            /* Esquinas redondeadas */
+    padding: 15px;                 /* Espaciado dentro de la tarjeta */
+    width: 280px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Sombra suave */
+    text-align: center;
+}
+
+.sushi-card img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.sushi-card h4 {
+    margin: 10px 0 5px 0;
+    color: #1a1a1a;
+}
+
+.sushi-card .price {
+    color: #e63946;
+    font-weight: bold;
+    font-size: 18px;
 }
