@@ -1,14 +1,14 @@
+/* TAWENO SUSHI - CONFIGURACIÓN BASE GLOBAL*/
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
-
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
-
 body {
   font-family: 'Noto Serif JP', serif;
   font-size: 1.6rem;
@@ -16,21 +16,17 @@ body {
   color: #1a1a1a;
   margin: 0;
 }
-
 img {
   max-width: 100%;
   display: block;
 }
-
 a {
   text-style: none;
   text-decoration: none;
   transition: all 0.3s ease;
 }
-
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
