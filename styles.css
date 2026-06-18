@@ -29,14 +29,12 @@ ul {
   margin: 0;
 }
 
-/* Contenedor General Reutilizable */
 .container {
   width: 140rem;
   margin: 0 auto;
   padding: 0 3.2rem;
 }
 
-/* Etiquetas generales de sección (Pill/Tags) */
 .section-tag {
   color: #c0392b;
   font-size: 1rem;
@@ -46,15 +44,10 @@ ul {
   margin-bottom: 0.6rem;
 }
 
-
-/* =====================================================
-   1. HEADER & NAVBAR
-   ===================================================== */
 .main-header {
   background-color: #000000;
 }
 
-/* 1.1 Navbar */
 .navbar {
   background-color: #ffffff;
   height: 5.2rem;
@@ -106,8 +99,6 @@ ul {
 .btn-reservation-nav:hover {
   background-color: #a93226;
 }
-
-/* 1.2 Hero (Zona Principal) */
 .hero {
   background-color: #000000;
   padding: 6.4rem 0;
@@ -187,10 +178,6 @@ ul {
   color: #ffffff;
 }
 
-
-/* =====================================================
-   2. NUESTRO MENÚ (TARJETAS)
-   ===================================================== */
 .menu-section {
   background-color: #ffffff;
   padding: 4.8rem 0;
@@ -231,10 +218,9 @@ ul {
   background-color: #ffffff;
   border: 0.1rem solid #e0ddd5;
   border-radius: 1rem;
-  overflow: hidden; /* Recomendación de la guía */
+  overflow: hidden; 
 }
 
-/* Margen entre tarjetas (excepto la última) */
 .product-card:not(:last-child) {
   margin-right: 2rem;
 }
@@ -294,10 +280,6 @@ ul {
   background-color: #c0392b;
 }
 
-
-/* =====================================================
-   3. LOS MÁS PEDIDOS
-   ===================================================== */
 .popular-section {
   background-color: #f2f0eb;
   padding: 4.8rem 0;
@@ -332,7 +314,7 @@ ul {
 
 .popular-list {
   flex-basis: 1;
-  flex: 1; /* Ocupa el espacio restante */
+  flex: 1;  
 }
 
 .popular-list li {
@@ -370,7 +352,7 @@ ul {
 }
 
 .popular-meta {
-  margin-left: auto; /* Empuja el bloque a la derecha según recomendación */
+  margin-left: auto;
   text-align: right;
 }
 
@@ -387,9 +369,6 @@ ul {
 }
 
 
-/* =====================================================
-   4. SOBRE NOSOTROS
-   ===================================================== */
 .about-section {
   background-color: #ffffff;
   padding: 4.8rem 0;
@@ -425,7 +404,7 @@ ul {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  overflow: hidden; /* Recomendación de la guía */
+  overflow: hidden; 
 }
 
 .stat-item {
@@ -452,11 +431,6 @@ ul {
   display: block;
   margin-top: 0.4rem;
 }
-
-
-/* =====================================================
-   5. CONTACTO
-   ===================================================== */
 .contact-section {
   background-color: #f2f0eb;
   padding: 4.8rem 0;
@@ -492,7 +466,7 @@ ul {
 }
 
 .contact-data-list li {
-  margin-bottom: 1rem; /* Usando modelo de caja en vez de gap */
+  margin-bottom: 1rem;
   font-size: 1.2rem;
   color: #555555;
 }
@@ -501,7 +475,6 @@ ul {
   color: #c0392b;
 }
 
-/* Tarjeta del formulario */
 .contact-card-form {
   flex-basis: 50%;
   background-color: #ffffff;
@@ -516,7 +489,7 @@ ul {
 }
 
 .form-group {
-  margin-bottom: 1rem; /* Margen entre campos */
+  margin-bottom: 1rem; 
   display: flex;
   flex-direction: column;
 }
@@ -557,10 +530,6 @@ ul {
   background-color: #a93226;
 }
 
-
-/* =====================================================
-   6. FOOTER
-   ===================================================== */
 .main-footer {
   background-color: #111111;
   padding: 3.6rem 0 2rem 0;
@@ -617,7 +586,6 @@ ul {
   color: #ffffff;
 }
 
-/* Barra inferior */
 .footer-bottom {
   border-top: 0.1rem solid #222222;
   padding-top: 1.6rem;
